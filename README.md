@@ -1,64 +1,89 @@
-## LSTM-MISA (Long Short-Term Memory - Multi-Indicator Stock Analyzer) 📈
 
+# LSTM-MISA (Long Short-Term Memory - Multi-Indicator Stock Analyzer) 📈
 
-This repository contains a web application built using Streamlit that leverages an LSTM (Long Short-Term Memory) neural network to predict stock prices. The application allows users to upload historical stock data in CSV format, process the data, and make predictions about future stock prices.
+Welcome to **LSTM-MISA**, a powerful web application designed to assist with stock price prediction using advanced machine learning techniques. This tool utilizes an LSTM (Long Short-Term Memory) neural network, a type of recurrent neural network (RNN) well-suited for time series forecasting, to analyze and predict stock prices based on historical data. The app is built with Streamlit, providing an intuitive and interactive user interface.
 
-## Features
+## 🔥 Features
 
-    Data Upload: Upload a CSV file containing historical stock data.
-    
-    Data Preprocessing: Automatically calculate technical indicators like SMA, RSI, MACD, and ATR.
-    
-    Model Training: Train an LSTM model on the uploaded data.
-    
-    Prediction: Predict future stock prices and calculate the mean absolute percentage error (MAPE) and price direction accuracy.
-    
-    Visualization: Visualize the actual and predicted stock prices on an interactive plot.
-    
-    Recommendation: Get a recommendation (Buy, Sell, Hold) based on the model's prediction.
+- **Data Upload**: Easily upload a CSV file containing historical stock data, ensuring a seamless start to your analysis. The file should include essential columns like Date, Open, High, Low, Close, and Adjusted Close.
 
-## Installation
+- **Data Preprocessing**: The app automatically processes the uploaded data by calculating key technical indicators such as:
+  - **SMA**: Simple Moving Average, which smooths out price data to identify trends.
+  - **RSI**: Relative Strength Index, a momentum oscillator that measures the speed and change of price movements.
+  - **MACD**: Moving Average Convergence Divergence, a trend-following momentum indicator.
+  - **ATR**: Average True Range, which measures market volatility.
 
-  To install and run this project locally, follow these steps:
-  Prerequisites
+- **Model Training**: Train an LSTM model tailored to your dataset. The model learns from historical data patterns to make informed predictions about future stock prices.
 
-  Ensure you have Python 3.10 or higher installed. Clone the repository to your local machine:
+- **Prediction**: Generate future stock price predictions, accompanied by key metrics such as Mean Absolute Percentage Error (MAPE) and price direction accuracy, to evaluate the model's performance.
 
-      git clone https://github.com/SuhasA72/LSTM-MISA.git
-      cd LSTM-MISA
-  
-## Install Dependencies
+- **Visualization**: Interactive plots allow you to visualize actual vs. predicted stock prices, providing insights into the model's accuracy and trends.
 
-  #You can install the required dependencies using pip:
+- **Recommendation**: Based on the model's predictions, receive actionable recommendations on whether to Buy, Sell, or Hold the stock.
 
-      pip install -r requirements.txt
+## 📦 Installation
 
-## Usage
+To get started with **LSTM-MISA**, follow the instructions below to set up the project on your local machine.
 
-## Run the Streamlit app
+### Prerequisites
 
-    streamlit run app.py
+Ensure you have Python 3.10 or higher installed on your system. Then, clone the repository:
 
-## Upload a CSV file containing the stock data. The file should have the following columns:
+```bash
+git clone https://github.com/SuhasA72/LSTM-MISA.git
+cd LSTM-MISA
+```
 
-    Date
-    Open
-    High
-    Low
-    Close
-    Adj Close
+### Install Dependencies
 
-## Contributing
+Install the necessary Python packages using pip:
 
-  If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+```bash
+pip install -r requirements.txt
+```
 
-## License
+## 🚀 Usage
 
-This project is licensed under the [MIT License](LICENSE.md). See the `LICENSE.md` file for details.
+### Running the Streamlit App
 
+Launch the application by running the following command:
 
-## Disclaimer
+```bash
+streamlit run app.py
+```
 
-  Note: This application provides stock price predictions based on a machine learning model and should not be considered as financial advice. Always conduct your own research and consult with a financial advisor before making any investment decisions.
+### Uploading Data
 
+- Upload a CSV file containing the stock data you wish to analyze.
+- The CSV file should include the following columns:
+  - **Date**: The date of the stock data entry.
+  - **Open**: The opening price of the stock on that date.
+  - **High**: The highest price of the stock on that date.
+  - **Low**: The lowest price of the stock on that date.
+  - **Close**: The closing price of the stock on that date.
+  - **Adj Close**: The adjusted closing price, accounting for dividends and splits.
+
+After uploading, the app will preprocess the data, train the LSTM model, and provide predictions and visualizations based on your data.
+
+## 🤝 Contributing
+
+We welcome contributions from the community! If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+Your contributions help make **LSTM-MISA** better for everyone!
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE.md). For more details, see the `LICENSE.md` file.
+
+## ⚠️ Disclaimer
+
+**LSTM-MISA** provides stock price predictions based on a machine learning model. These predictions are for educational purposes and should not be construed as financial advice. Please conduct your own research and consult with a financial advisor before making any investment decisions.
+
+---
 
