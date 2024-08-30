@@ -1,52 +1,75 @@
-
 # LSTM-MISA (Long Short-Term Memory - Multi-Indicator Stock Analyzer) 📈
+
+[![GitHub license](https://img.shields.io/github/license/SuhasA72/LSTM-MISA.svg)](https://github.com/SuhasA72/LSTM-MISA/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/SuhasA72/LSTM-MISA.svg)](https://GitHub.com/SuhasA72/LSTM-MISA/releases/)
 
 Welcome to **LSTM-MISA**, a powerful web application designed to assist with stock price prediction using advanced machine learning techniques. This tool utilizes an LSTM (Long Short-Term Memory) neural network, a type of recurrent neural network (RNN) well-suited for time series forecasting, to analyze and predict stock prices based on historical data. The app is built with Streamlit, providing an intuitive and interactive user interface.
 
-## 🔥 Features
+## Table of Contents
 
-- **Data Upload**: Easily upload a CSV file containing historical stock data, ensuring a seamless start to your analysis. The file should include essential columns like Date, Open, High, Low, Close, and Adjusted Close.
+- [Why LSTM for Stock Prediction?](#why-lstm-for-stock-prediction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Citation](#citation)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
-- **Data Preprocessing**: The app automatically processes the uploaded data by calculating key technical indicators such as:
-  - **SMA**: Simple Moving Average, which smooths out price data to identify trends.
-  - **RSI**: Relative Strength Index, a momentum oscillator that measures the speed and change of price movements.
-  - **MACD**: Moving Average Convergence Divergence, a trend-following momentum indicator.
-  - **ATR**: Average True Range, which measures market volatility.
+## Why LSTM for Stock Prediction?
 
-- **Model Training**: Train an LSTM model tailored to your dataset. The model learns from historical data patterns to make informed predictions about future stock prices.
+LSTM networks are particularly effective for stock price prediction due to their ability to capture long-term dependencies in time series data. Unlike traditional RNNs, LSTMs can remember or forget information over long periods, making them ideal for identifying patterns in stock market trends that may span days, weeks, or even months.
 
-- **Prediction**: Generate future stock price predictions, accompanied by key metrics such as Mean Absolute Percentage Error (MAPE) and price direction accuracy, to evaluate the model's performance.
+## Features
 
-- **Visualization**: Interactive plots allow you to visualize actual vs. predicted stock prices, providing insights into the model's accuracy and trends.
+- **Data Upload**: Easily upload a CSV file containing historical stock data.
+- **Data Preprocessing**: Automatic calculation of key technical indicators (SMA, RSI, MACD, ATR).
+- **Model Training**: Train an LSTM model tailored to your dataset.
+- **Prediction**: Generate future stock price predictions with performance metrics.
+- **Visualization**: Interactive plots for actual vs. predicted stock prices.
+- **Recommendation**: Actionable Buy, Sell, or Hold recommendations.
 
-- **Recommendation**: Based on the model's predictions, receive actionable recommendations on whether to Buy, Sell, or Hold the stock.
-
-## 📦 Installation
-
-To get started with **LSTM-MISA**, follow the instructions below to set up the project on your local machine.
+## Installation
 
 ### Prerequisites
 
-Ensure you have Python 3.10 or higher installed on your system. Then, clone the repository:
+- Python 3.10 or higher
+- Git
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/SuhasA72/LSTM-MISA.git
 cd LSTM-MISA
 ```
 
-### Install Dependencies
+### Set Up a Virtual Environment
 
-Install the necessary Python packages using pip:
+#### For Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### For macOS and Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Running the Streamlit App
-
-Launch the application by running the following command:
 
 ```bash
 streamlit run app.py
@@ -54,25 +77,55 @@ streamlit run app.py
 
 ### Uploading Data
 
-- Upload a CSV file containing the stock data you wish to analyze.
-- The CSV file should include the following columns:
-  - **Date**: The date of the stock data entry.
-  - **Open**: The opening price of the stock on that date.
-  - **High**: The highest price of the stock on that date.
-  - **Low**: The lowest price of the stock on that date.
-  - **Close**: The closing price of the stock on that date.
-  - **Adj Close**: The adjusted closing price, accounting for dividends and splits.
+1. Prepare a CSV file with columns: Date, Open, High, Low, Close, Adj Close.
+2. Upload the CSV file through the web interface.
+3. The app will preprocess the data, train the LSTM model, and provide predictions and visualizations.
 
-After uploading, the app will preprocess the data, train the LSTM model, and provide predictions and visualizations based on your data.
+## Contributing
 
+We welcome contributions to LSTM-MISA! Here's how you can contribute:
 
-## 📄 License
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-This project is licensed under the [MIT License](LICENSE.md). For more details, see the `LICENSE.md` file.
+Please adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
-## ⚠️ Disclaimer
+## Citation
 
-**LSTM-MISA** provides stock price predictions based on a machine learning model. These predictions are for educational purposes and should not be construed as financial advice. Please conduct your own research and consult with a financial advisor before making any investment decisions.
+If you use LSTM-MISA in your research, please cite it as follows:
+
+```bibtex
+@software{lstm_misa,
+  author = {SuhasA72},
+  title = {LSTM-MISA: Long Short-Term Memory Multi-Indicator Stock Analyzer},
+  year = {2024},
+  url = {https://github.com/SuhasA72/LSTM-MISA}
+}
+```
+
+## Roadmap
+
+- [ ] Implement additional technical indicators
+- [ ] Add support for multiple stock comparison
+- [ ] Integrate sentiment analysis from news sources
+- [ ] Develop a mobile application version
+
+## Support
+
+If you need help or have any questions, please [open an issue](https://github.com/SuhasA72/LSTM-MISA/issues) on the GitHub repository or contact the maintainers at [your-email@example.com](mailto:your-email@example.com).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Disclaimer
+
+**LSTM-MISA** provides stock price predictions based on a machine learning model. These predictions are for educational purposes only and should not be construed as financial advice. Please conduct your own research and consult with a financial advisor before making any investment decisions.
 
 ---
 
+Tags: `#MachineLearning` `#StockPrediction` `#LSTM` `#FinancialAnalysis` `#Python` `#Streamlit` `#DataScience`
