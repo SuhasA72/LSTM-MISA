@@ -65,17 +65,6 @@ streamlit run app.py
 
 After uploading, the app will preprocess the data, train the LSTM model, and provide predictions and visualizations based on your data.
 
-## 🤝 Contributing
-
-We welcome contributions from the community! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
-
-Your contributions help make **LSTM-MISA** better for everyone!
 
 ## 📄 License
 
