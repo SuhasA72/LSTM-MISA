@@ -8,15 +8,15 @@ Welcome to **LSTM-MISA**, a powerful web application designed to assist with sto
 ## Table of Contents
 
 - [Why LSTM for Stock Prediction?](#why-lstm-for-stock-prediction)
-- [Features](#🔥features)
-- [Installation](#📦installation)
-- [Usage](#🚀usage)
+- [Features](##🔥features)
+- [Installation](##📦installation)
+- [Usage](##🚀usage)
 - [Contributing](#contributing)
 - [Citation](#citation)
 - [Roadmap](#roadmap)
 - [Support](#support)
-- [License](#📄license)
-- [Disclaimer](#⚠️disclaimer)
+- [License](##📄license)
+- [Disclaimer](##⚠️disclaimer)
 
 ## Why LSTM for Stock Prediction?
 
