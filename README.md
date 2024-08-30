@@ -40,14 +40,12 @@ This repository contains a web application built using Streamlit that leverages 
 
 ## Upload a CSV file containing the stock data. The file should have the following columns:
 
-Date
-Open
-High
-Low
-Close
-Adj Close
-
-Wait for the model to train and make predictions. The app will display the actual and predicted prices, along with a recommendation.
+    Date
+    Open
+    High
+    Low
+    Close
+    Adj Close
 
 ## Contributing
 
