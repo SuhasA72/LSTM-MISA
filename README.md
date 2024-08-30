@@ -1,8 +1,8 @@
-LSTM-MISA: LSTM Stock Price Predictor 📈
+                                                                                                        LSTM-MISA: LSTM Stock Price Predictor 📈
 
 This repository contains a web application built using Streamlit that leverages an LSTM (Long Short-Term Memory) neural network to predict stock prices. The application allows users to upload historical stock data in CSV format, process the data, and make predictions about future stock prices.
 
-Features
+##Features
 
     Data Upload: Upload a CSV file containing historical stock data.
     
@@ -16,7 +16,7 @@ Features
     
     Recommendation: Get a recommendation (Buy, Sell, Hold) based on the model's prediction.
 
-Installation
+##Installation
 
   To install and run this project locally, follow these steps:
   Prerequisites
@@ -26,19 +26,19 @@ Installation
       git clone https://github.com/SuhasA72/LSTM-MISA.git
       cd LSTM-MISA
   
-Install Dependencies
+##Install Dependencies
 
   #You can install the required dependencies using pip:
 
       pip install -r requirements.txt
 
-Usage
+##Usage
 
     #Run the Streamlit app:
 
     streamlit run app.py
 
-Contributing
+##Contributing
 
   If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
@@ -47,7 +47,7 @@ Contributing
     This project is licensed under the [MIT License](LICENSE.md). See the `LICENSE.md` file for details.
 
 
-Disclaimer
+##Disclaimer
 
   Note: This application provides stock price predictions based on a machine learning model and should not be considered as financial advice. Always conduct your own research and consult with a financial advisor before making any investment decisions.
 
