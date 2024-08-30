@@ -28,13 +28,13 @@ Installation
   
 Install Dependencies
 
-  You can install the required dependencies using pip:
+  #You can install the required dependencies using pip:
 
   pip install -r requirements.txt
 
 Usage
 
-    Run the Streamlit app:
+    #Run the Streamlit app:
 
     streamlit run app.py
 
