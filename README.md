@@ -21,7 +21,7 @@ This repository contains a web application built using Streamlit that leverages 
   To install and run this project locally, follow these steps:
   Prerequisites
 
-  Ensure you have Python 3.7 or higher installed. Clone the repository to your local machine:
+  Ensure you have Python 3.10 or higher installed. Clone the repository to your local machine:
 
       git clone https://github.com/SuhasA72/LSTM-MISA.git
       cd LSTM-MISA
@@ -37,6 +37,17 @@ This repository contains a web application built using Streamlit that leverages 
 ## Run the Streamlit app
 
     streamlit run app.py
+
+## Upload a CSV file containing the stock data. The file should have the following columns:
+
+    Date
+    Open
+    High
+    Low
+    Close
+    Adj Close
+
+Wait for the model to train and make predictions. The app will display the actual and predicted prices, along with a recommendation.
 
 ## Contributing
 
