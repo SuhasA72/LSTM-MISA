@@ -38,18 +38,6 @@ Usage
 
     streamlit run app.py
 
-    Open your browser and go to http://localhost:8501.
-
-    Upload a CSV file containing the stock data. The file should have the following columns:
-        Date
-        Open
-        High
-        Low
-        Close
-        Adj Close
-
-    Wait for the model to train and make predictions. The app will display the actual and predicted prices, along with a recommendation.
-
 Contributing
 
   If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
