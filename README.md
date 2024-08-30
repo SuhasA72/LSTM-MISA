@@ -23,14 +23,14 @@ Installation
 
   Ensure you have Python 3.7 or higher installed. Clone the repository to your local machine:
 
-  git clone https://github.com/SuhasA72/LSTM-MISA.git
-  cd LSTM-MISA
+      git clone https://github.com/SuhasA72/LSTM-MISA.git
+      cd LSTM-MISA
   
 Install Dependencies
 
   #You can install the required dependencies using pip:
 
-  pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Usage
 
