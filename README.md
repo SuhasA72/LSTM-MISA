@@ -32,7 +32,7 @@ This repository contains a web application built using Streamlit that leverages 
 
       pip install -r requirements.txt
 
-##Usage
+## Usage
 
     #Run the Streamlit app:
 
