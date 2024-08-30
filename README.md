@@ -1,6 +1,6 @@
 # LSTM-MISA (Long Short-Term Memory - Multi-Indicator Stock Analyzer) 📈 | Predict Stock Prices Using Machine Learning
 
-[![GitHub license](https://img.shields.io/github/license/SuhasA72/LSTM-MISA.svg)](https://github.com/SuhasA72/LSTM-MISA/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/SuhasA72/LSTM-MISA.svg)](https://github.com/SuhasA72/LSTM-MISA/blob/main/LICENSE.md)
 [![GitHub release](https://img.shields.io/github/release/SuhasA72/LSTM-MISA.svg)](https://GitHub.com/SuhasA72/LSTM-MISA/releases/)
 
 Welcome to **LSTM-MISA**, a powerful web application designed to assist with stock price prediction using advanced machine learning techniques. This tool utilizes an LSTM (Long Short-Term Memory) neural network, a type of recurrent neural network (RNN) well-suited for time series forecasting, to analyze and predict stock prices based on historical data. The app is built with Streamlit, providing an intuitive and interactive user interface.
