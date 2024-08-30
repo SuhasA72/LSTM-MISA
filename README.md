@@ -34,7 +34,7 @@ This repository contains a web application built using Streamlit that leverages 
 
 ## Usage
 
-    #Run the Streamlit app:
+## Run the Streamlit app
 
     streamlit run app.py
 
@@ -44,7 +44,7 @@ This repository contains a web application built using Streamlit that leverages 
 
 ## License
 
-    This project is licensed under the [MIT License](LICENSE.md). See the `LICENSE.md` file for details.
+This project is licensed under the [MIT License](LICENSE.md). See the `LICENSE.md` file for details.
 
 
 ## Disclaimer
