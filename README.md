@@ -1,4 +1,5 @@
-LSTM-MISA: LSTM Stock Price Predictor 📈
+## LSTM-MISA (Long Short-Term Memory - Multi-Indicator Stock Analyzer) 📈
+
 
 This repository contains a web application built using Streamlit that leverages an LSTM (Long Short-Term Memory) neural network to predict stock prices. The application allows users to upload historical stock data in CSV format, process the data, and make predictions about future stock prices.
 
