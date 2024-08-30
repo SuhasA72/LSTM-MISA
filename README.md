@@ -8,15 +8,14 @@ Welcome to **LSTM-MISA**, a powerful web application designed to assist with sto
 ## Table of Contents
 
 - [Why LSTM for Stock Prediction?](#why-lstm-for-stock-prediction)
-- [Features](##🔥features)
-- [Installation](##📦installation)
-- [Usage](##🚀usage)
-- [Contributing](#contributing)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
 - [Citation](#citation)
 - [Roadmap](#roadmap)
 - [Support](#support)
-- [License](##📄license)
-- [Disclaimer](##⚠️disclaimer)
+- [License](#-license)
+- [Disclaimer](#️-disclaimer)
 
 ## Why LSTM for Stock Prediction?
 
@@ -95,13 +94,6 @@ If you use LSTM-MISA in your research, please cite it as follows:
 }
 ```
 
-## Roadmap
-
-- [ ] Implement additional technical indicators
-- [ ] Add support for multiple stock comparison
-- [ ] Integrate sentiment analysis from news sources
-- [ ] Develop a mobile application version
-
 ## Support
 
 If you need help or have any questions, please [open an issue](https://github.com/SuhasA72/LSTM-MISA/issues) on the GitHub repository
@@ -115,5 +107,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 **LSTM-MISA** provides stock price predictions based on a machine learning model. These predictions are for educational purposes only and should not be construed as financial advice. Please conduct your own research and consult with a financial advisor before making any investment decisions.
 
 ---
-
-Tags: `#MachineLearning` `#StockPrediction` `#LSTM` `#FinancialAnalysis` `#Python` `#Streamlit` `#DataScience`
